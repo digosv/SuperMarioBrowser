@@ -30,7 +30,6 @@
 
 .jump {
   animation: mario-jump 500ms ease-out;
-
 }
 
 @keyframes mario-jump {
@@ -41,13 +40,13 @@
     bottom: 140px;
   }
   40% {
-    bottom: 160px;
+    bottom: 180px;
   }
   50% {
-    bottom: 160px;
+    bottom: 180px;
   }
   60% {
-    bottom: 160px;
+    bottom: 180px;
   }
   70% {
     bottom: 140px;
