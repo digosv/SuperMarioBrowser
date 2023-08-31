@@ -10,4 +10,4 @@ const jump = () => {
 }
 
 document.addEventListener("keydown", jump)
-document.addEventListener('Touch', jump)
+document.addEventListener("touchstart", jump)
