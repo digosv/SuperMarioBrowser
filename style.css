@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 500px;
   border: 1px solid black;
-  border-bottom: 15px solid green;
+  border-bottom: 15px solid rgb(29, 114, 29);
   margin: auto;
   position: relative;
   overflow: hidden;
