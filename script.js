@@ -13,7 +13,7 @@ const loop = setInterval(() => {
   const goombaPosition = goomba.offsetLeft
   const marioPosition = +window.getComputedStyle(mario).bottom.replace("px", "")
 
-  if (goombaPosition <= 775 && goombaPosition > 700 && marioPosition < 90) {
+  if (goombaPosition <= 530 && goombaPosition > 450 && marioPosition < 90) {
     goomba.style.animation = "none"
     goomba.style.left = `${goombaPosition}px`
 
