@@ -25,14 +25,14 @@ body {
   position: absolute;
   width: 90px;
   bottom: 0;
-  animation: goomba-animation 2s infinite linear;
+  animation: goomba-animation 2.5s infinite linear;
 }
 
 .mario {
   width: 80px;
   position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 700px;
 }
 
 .jump {
@@ -74,8 +74,8 @@ body {
 }
 
 .clouds {
-  width: 400px;
-  margin-top: 50px;
+  width: 300px;
+  margin-top: 70px;
   position: absolute;
   animation: clouds-animation 10s linear infinite;
 }
